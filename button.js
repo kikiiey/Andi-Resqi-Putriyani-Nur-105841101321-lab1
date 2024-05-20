@@ -10,7 +10,7 @@ export default function App() {
         marginBottom: 100,
       }}>
         <View style={{
-          backgroundColor: 'red',
+          backgroundColor: '#e0056f',
           width: 150,
           height: 70,
           borderRadius: 10,
@@ -27,7 +27,7 @@ export default function App() {
           </Text>
         </View>
         <View style={{
-          backgroundColor: 'blue',
+          backgroundColor: '#e0056f',
           width: 150,
           height: 70,
           borderRadius: 10,

@@ -1,23 +1,18 @@
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 const TextCustom = ()=>{
 return(
-<View style={{
-        backgroundColor: 'blue',
-        width: 150,
-        height: 70,
-        borderRadius: 10,
-        marginLeft: 10
+        <View style={{
+        backgroundColor: 'white',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
       }}>
         <Text style={{
-          color: 'white',
-          textAlign: 'center',
-          lineHeight: 80,
-          fontSize: 30,
+          fontSize:45,
           fontWeight: 'bold',
-        }}>
-          Test
-        </Text>
+          marginTop: 80,
+          color: '#e0056f'
+        }}>HIJAB SHOP</Text>
       </View>
 )
-
 }
+export default TextCustom
