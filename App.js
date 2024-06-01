@@ -9,7 +9,7 @@ const ButtonCustom = () => {
         alignItems: 'center', 
       }}>
          <Text style={{
-        fontSize: 40,
+        fontSize: 35,
         fontWeight: 'bold',
         marginBottom: 65,
         marginTop: 110,
@@ -19,14 +19,14 @@ const ButtonCustom = () => {
         position: 'absolute',
         alignItems: 'center',
         justifyContent: 'center',
-        width: 350,
-        height: 130,
+        width: 400,
+        height: 150,
         top: 180,
         resizeMode: 'contain',
       }} />
       <View style={{
         justifyContent: 'center',
-        marginTop: 100,
+        marginTop: 130,
         marginBottom: 50,
       }}>
         
@@ -50,20 +50,21 @@ const ButtonCustom = () => {
       <Text style={{
         color: 'black',
         marginTop:150 ,
+        fontSize:16,
       }}>Sign up with another account
       </Text>
       <Image source={require('./assets/iconngoogle.png')} style={{
-        width: 50,
-        height: 40,
+        width: 60,
+        height: 50,
         top: 10,
-        right:30,
+        right:40,
         
       }} />
             <Image source={require('./assets/iconfacebook.png')} style={{
-        width: 50,
-        height: 40,
-        left:30,
-        bottom:30,
+        width: 60,
+        height: 50,
+        left:40,
+        bottom:40,
       }} />
       </View>
     )
@@ -72,10 +73,11 @@ const ButtonCustom = () => {
     return (
       <View style={{
         backgroundColor:backgroundColor,
-        width:200,
+        width:330,
         height:45,
-        borderRadius:40,
-        marginLeft:10
+        borderRadius:10,
+        bottom:20,
+
       }}>
       <Text style={{
         color:'white',
