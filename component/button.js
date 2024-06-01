@@ -9,7 +9,7 @@ const Buttoncomponent = ({backgroundColor, text}) => {
         color: 'white',
         textAlign: 'center',
         lineHeight: 70,
-        fontSize: 25,
+        fontSize: 35,
         fontWeight: 'bold'
       }}>
         {text}
